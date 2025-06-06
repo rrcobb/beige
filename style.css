@@ -57,7 +57,7 @@ header p {
 }
 
 .section {
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
 }
 
 .section:last-child {
@@ -65,10 +65,11 @@ header p {
 }
 
 h2 {
+    font-family: Georgia, 'Times New Roman', serif;
     font-size: 1.1rem;
     font-weight: 500;
     color: #444;
-    margin-bottom: 1.5rem;
+    margin-bottom: 0.6rem;
     text-align: left;
     text-transform: uppercase;
     letter-spacing: 0.5px;
@@ -82,10 +83,11 @@ h2 {
 
 .links a {
     display: block;
-    padding: 0.4rem 0;
+    padding: 0.3rem 0;
     text-decoration: none;
     color: #444;
     border-bottom: 1px solid #f0ede6;
+    font-family: Georgia, 'Times New Roman', serif;
     font-size: 15px;
     font-weight: 400;
     text-align: left;
@@ -93,7 +95,8 @@ h2 {
 }
 
 .links a:hover {
-    color: #666;
+    color: #222;
+    background-color: #f8f5ee;
 }
 
 .links a:last-child {
