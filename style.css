@@ -112,6 +112,15 @@ h2 {
     margin-bottom: 0;
 }
 
+.description a {
+    color: #666;
+    text-decoration: none;
+}
+
+.description a:hover {
+    text-decoration: underline;
+}
+
 @media (max-width: 768px) {
     .content-layout {
         flex-direction: column;
