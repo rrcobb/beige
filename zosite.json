@@ -1,0 +1,11 @@
+{
+  "name": "beige",
+  "local_port": 55850,
+  "entrypoint": "python -m http.server 55850",
+  "publish": {
+    "label": "beige",
+    "type": "http",
+    "entrypoint": "python -m http.server 55850",
+    "published_port": 55850
+  }
+}
